@@ -24,5 +24,5 @@ export default defineConfig({
         testIdAttribute: 'id'
     },
 
-    base: '/02-eigene-webseite/'
+    base: '/02-eigene-webseite-giannagartmannn/'
 })

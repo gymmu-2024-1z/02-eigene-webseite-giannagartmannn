@@ -16,9 +16,27 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+            <h1>Webseite von Gianna Gartmann</h1>
         </header>
-
+        <svg height="300" width="300">
+            <ellipse cx="150" cy="150" rx="50" ry="150" fill="purple">
+                <animate
+                    attributeName="ry"
+                    values="50;25;50"
+                    dur="1s"
+                    repeatCount="indefinite"
+                />
+            </ellipse>
+            <circle cx="100" cy="100" r="25" fill="navy" />
+            <circle cx="200" cy="100" r="25" fill="navy" />
+            <circle cx="100" cy="200" r="25" fill="navy" />
+            <circle cx="200" cy="200" r="25" fill="navy" />
+            <circle cx="150" cy="150" r="25" fill="black" />
+            <circle cx="50" cy="150" r="25" fill="black" />
+            <circle cx="150" cy="250" r="25" fill="black" />
+            <circle cx="250" cy="150" r="25" fill="black" />
+            <circle cx="150" cy="50" r="25" fill="black" />
+        </svg>
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
             denen man auf Unterwebseiten kommt. 
@@ -27,7 +45,10 @@
 
             <ul>
                 <li>
-                    <a href="./pages/hobbies.html">Hobbies</a>
+                    <a href="./pages/hobbies.html">Meine Freizeitaktivitäten</a>
+                </li>
+                <li>
+                    <a href="./pages/Giannas Website">Liebesbrief</a>
                 </li>
             </ul>
         </nav>
@@ -41,39 +62,44 @@
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
+                <h2>Vorstellung</h2>
                 <p>
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
+                    Ich bin Gianna Gartmann, aktuell Schülerin am Gymnasium
+                    Muttenz mit Schwerpunkt Bildnerisches Gestalten. diesen
+                    Schwerpunkt habe ich gewählt, da ich mich einerseits für
+                    Kunstgeschichte interessiere, andererseits aber auch einen
+                    gewissen Frieden in der Expression von Kunst finde.
+                    Darüberhinaus bin ich oft gelangweilt und dachte, dass mir
+                    ein kreativer Schwerpunkt mehr Spielraum erlaubt.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
+                    Ich bin nun bereits seit 6 Wochen an der neuen Schule. Es
+                    wird sich bestimmt noch vieles ändern, doch ich kann, auch
+                    nach 6 Wochen sagen, dass mir besonders meine Klasse sehr
+                    gut gefällt, da die meisten Leute sehr unkompliziert sind.
                 </p>
             </section>
 
             <section>
-                <h2>Abschnitt mit Text und Bild</h2>
+                <h2>Meine Lieblingsfrucht</h2>
                 <div class="text-and-img">
                     <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
                     Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
                     verwendet, damit wir den Effekt von einem Text neben einem Bild
                     einfach hinbekommen können. -->
                     <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
+                        In all seinen Variationen, ob getrocknet, frisch, in
+                        einem Salat, als Lassi oder als Sorbet, Mango ist mein
+                        Lieblingsessen.
                     </div>
                     <div class="image">
-                        <img src="/img/mountains.png" alt="" />
+                        <img
+                            src="https://www.muttererde.at/wp-content/uploads/2019/08/mango.jpg"
+                            alt=""
+                        />
                     </div>
                 </div>
             </section>

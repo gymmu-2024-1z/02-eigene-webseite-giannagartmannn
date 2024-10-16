@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Giannacore</title>
+
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <a href="/">Home</a>
+        <h1>In meinem Herzen</h1>
+    </body>
+</html>
+<main>
+    <section>
+        <p>
+            Ich liebe Katzen, Schokolade, Musik, Lachen, mit Menschen direkt zu
+            klicken, wenn jemand einen vermisst, handgeschriebene Briefe,
+            Pinterest, den Geruch von Büchern, Kino am Abend, Umarmungen, den
+            Geruch von Regen auf heissem Asphalt im Sommer, wenn Menschen
+            lächeln, sich zusammen bereit zu machen bevor man raus geht,
+            lackierte Nägel, Schals, Bangels, Schmuck, Brockis, wenn ältere
+            Menchen glücklich über ihre Kindheit reden, Nostalgie, Pfannkuchen,
+            Honig, Diskussionen über Politik, warmen Tee im Herbst, Lippenstift
+            auf Tassen, Nagellack, kuschelige Decken, Lachfalten, das Geräusch
+            von Regen in der Nacht, Plattten und CDs, wenn Leute aufleuchten
+            wenn sie über etwas reden das ihnen wichtig ist, wenn Leute Wörter
+            in ihren Wortschatz aus deinem adaptieren, Tassen, Lampen die eine
+            Blumenform haben, wütende Feministinnen, gute Filme mit passendem
+            Soundtrack, Röcke, Komplimente zu verteilen, Piercings, bunten
+            Liedschatten etc.
+        </p>
+
+        <p>Ich könnte für immer weiterreden, Dankbarkeit ist so wertvoll.</p>
+
+        <div class="image">
+            <img
+                src="https://media.istockphoto.com/id/1459780477/de/vektor/herz.jpg?s=612x612&w=0&k=20&c=JYsivu6N4LYwJyWLjjf1Xn1ESas1pyktDMthkQDmN7g="
+                alt=""
+            />
+        </div>
+    </section>
+</main>
